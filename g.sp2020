@@ -25,7 +25,7 @@ data z = 3 .
   end 
   out 2 .
 end
-
+@
 data x = 1 .
 data y = 2 .
 begin
@@ -39,7 +39,7 @@ begin
   iffy [ x < 0 ] then
     out x . .
 end
-@
+
 data x .
 begin
 in x .
